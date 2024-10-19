@@ -2,7 +2,6 @@ package tn.itbs.asma.services;
 
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import tn.itbs.asma.entities.Utilisateur;
@@ -13,7 +12,7 @@ public class UtilisateurService {
 
 	
     private final UtilisateurRepo utilisateurRepo;
-    @Autowired
+    
     public UtilisateurService(UtilisateurRepo utilisateurRepo) {
         this.utilisateurRepo = utilisateurRepo;
     }

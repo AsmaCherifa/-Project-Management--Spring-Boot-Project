@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class etiquette {
+public class Etiquette {
 	@Id
 	private int id;
 	private String libelle;

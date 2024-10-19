@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import tn.itbs.asma.entities.Projet;
-import tn.itbs.asma.entities.Utilisateur;
 import tn.itbs.asma.services.ProjetService;
 @RestController
 @RequestMapping("/projects")
@@ -86,7 +85,7 @@ public class ProjetController {
 		        "id": 1
 		    },
 		    "ListeT": []
-}
+			}
 */
 	   
 	

@@ -2,6 +2,7 @@ package tn.itbs.asma.entities;
 
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -33,5 +34,5 @@ public class Tache {
     
     @OneToMany (mappedBy = "tache")
 	
-	private ArrayList<etiquette> ListeE = new ArrayList<etiquette>();
+	private List<Etiquette> ListeE = new ArrayList<>();
 }

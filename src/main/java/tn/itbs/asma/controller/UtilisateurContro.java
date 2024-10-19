@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import jakarta.validation.Valid;
 import tn.itbs.asma.entities.Utilisateur;
 import tn.itbs.asma.services.UtilisateurService;
 //@controller va renvoyer une vue
